@@ -1,0 +1,21 @@
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+
+# Windows y sincronización de MATLAB Drive
+desktop.ini
+Thumbs.db
+.DS_Store
+.MATLABDriveTag
+
+# Archivos temporales y generados por MATLAB / Simulink
+*.asv
+*.m~
+*.slxc
+*.autosave
+slprj/
+codegen/
+
+# Copia comprimida de los archivos ya incluidos
+/Proyecto Control Grupo 3-4 solo matlab.zip
